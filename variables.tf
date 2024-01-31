@@ -19,3 +19,9 @@ variable "private_subnet" {
     "private-3-west-europe" = "10.14.3.0/24",
   }
 }
+
+variable "k8s_version" {
+  description = "Kubernetes version"
+  type        = string
+  default     = "1.27.7"
+}
